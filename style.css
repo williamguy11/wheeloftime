@@ -1,0 +1,74 @@
+html, body {
+    height: 100%; /* Ensure the body and html elements take up the full viewport height */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('wheeloftime.jpg'); /* Path to the image */
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    color: #fff; /* Changes text color to white for better contrast */
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for readability */
+    color: #fff;
+}
+
+h1 {
+    color: #f5d142; /* Yellow for the title to match the theme */
+}
+
+.question-box {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    border-radius: 10px;
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #f5d142; /* Yellow buttons */
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #ffe96c;
+}
+
+button.option {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #f5d142;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black for options */
+    color: #fff;
+    cursor: pointer;
+}
+
+button.option:hover {
+    background-color: #f5d142;
+    color: #333;
+}
+
+#score {
+    font-size: 18px;
+    margin-top: 20px;
+}
